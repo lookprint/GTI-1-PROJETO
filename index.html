@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--CSS-->
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+
 	<link rel="stylesheet" href="css/font-alpona.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/global.css">
@@ -26,47 +26,84 @@ col-lg: maior ou igual a 1200px
 <header class="main">
 	<nav class="container">
 		<div class="row branding">
-			<div class="col-sm-3 col-xs-9 logomarca">	
-				<img src="img/logo.png" alt="Logo MaxFlex">
-			</div>
 
-			<div class="col-md-5 col-xs-3">	
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="icon-menu-2"></i></a>
-				<ul class="menu right hide-on-med-and-down">
-					<li><a href="#">INÍCIO</a></li>
+			<div class="col-sm-3 col-xs-8 logomarca-brand">	
+
+				<img src="img/logo.png" alt="Logo MaxFlex">
+
+			</div>
+			<!-- MENU -->
+			<div class="col-md-6 col-xs-3 collapse navbar-collapse">	
+				<ul class="nav navbar-nav menu">
+					<li><a href="#">HOME</a></li>
 					<li><a href="#">SOBRE</a></li>
 					<li><a href="#">PRODUTOS</a></li>
-					<li><a href="#">CONTATOS</a></li>
+					<li><a href="#">CONTATO</a></li>
 				</ul>
 
-				<ul class="side-nav side-navigation" id="mobile-demo">
-					<li><a href="#"><i class="icon-home"></i>INÍCIO</a></li>
-					<li><a href="#"><i class="icon-home"></i>SOBRE</a></li>
-					<li><a href="#"><i class="icon-home"></i>PRODUTOS</a></li>
-					<li><a href="#"><i class="icon-home"></i>CONTATOS</a></li>
-				</ul>
 
+		
 			</div>
-			<div class="col-sm-3 right hide-on-med-and-down">
-				<div class="login">LOGIN</div>
+			<div class="col-sm-3 col-xs-3 collapse  navbar-collapse">
+				<div class="login">
+					<div class="welcome">BEM-VINDO<BR>12:54</div>
+				</div>
+			</div>
+
+			<div class="col-xs-2">
+				<a href="#" class="left-toggle navbar-header"><i class="icon-menu-2 "></i></a>
 			</div>
 		</div>
 	</nav>
 </header>
 <div class="linha-colorida"></div>
 
+	<div class="menu-flutuante">
+		<ul class="side-navigation">
+            <li><a href="index.php"><i class="icon-home"></i> HOME</a></li>
+            <li><a href="index.php"><i class="icon-home"></i> SOBRE</a></li>
+            <li><a href="index.php"><i class="icon-home"></i> PRODUTOS</a></li>
+            <li><a href="index.php"><i class="icon-home"></i> CONTATO</a></li>
+            <li><a href="index.php"><i class="icon-home"></i> LOGIN (MODAL)</a></li>
+     	</ul>
+
+	</div>
+
+<div id="map" class="maps-personalizado"></div>
+
+<div class="slidep">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-4">
+					<h2>LOCALIZE SEU CARRO</h1>
+					<h4 style="color:#FFF">LOCALIZE SEU CARRO</h4>
+					<h4 style="color:#FFF">SIMULAÇÃO DE ROTA</h4>
+					<h4 style="color:#FFF">BLOQUEIO ONLINE</h4>
+				</div>
+				<div class="col-sm-6 col-xs-4">
+					<div class="button-sistema"><a style="color: white; text-decoration: none;" href="http://149.56.46.53/maxflex/" target="_blank">Acesse agora o monitoramento online</a></div>
+				</div>
+			</div>
+		</div></div>
+	</div>
+<div class="linha-colorida"></div>
+	
+
+
 
 <!-- JQUERY -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
 <!--BOOTSTRAP-->
 <script src="js/bootstrap.min.js"></script>
-<!-- MATERIALIZE -->
-<script src="js/materialize.min.js"></script>
 <!--INPUT MASK-->
 
 <!--NOTIFICATIONS-->
 
 <!--AJAX FORM-->
+
+<!-- MAPS -->
+
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyB6iEbGDTP5u6PoEA5wwbzQGZAEul1Lyz8"></script>
 
 <!--GLOBAL CUSTOM-->
 <script src="js/global.js"></script>
