@@ -1,0 +1,58 @@
+
+  @font-face 
+  {
+    font-family:'template-icon-booking-meta';
+    src:url('../fonts/booking/template-icon-booking-meta.eot?8z8jdv');
+    src:url('../fonts/booking/template-icon-booking-meta.eot?#iefix8z8jdv') format('embedded-opentype'),url('../fonts/booking/template-icon-booking-meta.ttf?8z8jdv') format('truetype'),url('../fonts/booking/template-icon-booking-meta.woff?8z8jdv') format('woff'),url('../fonts/booking/template-icon-booking-meta.svg?8z8jdv#cbs-meta') format('svg');
+    font-weight:normal;
+    font-style:normal;
+  }
+
+  .template-component-booking .template-component-button:before,
+  [class^="template-icon-booking-meta-"], [class*=" template-icon-booking-meta-"] 
+  {
+    font-family:'template-icon-booking-meta' !important;
+    speak:none;
+    font-style:normal;
+    font-weight:normal;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+  
+  .template-component-booking .template-component-button:before,
+  .template-icon-booking-meta-check:before 
+  {
+    content:"\65";
+    font-size:16px;
+  }
+  
+  .template-icon-booking-meta-total-price:before 
+  {
+    content:"\69";
+    font-size:48px;
+  }
+  .template-icon-booking-meta-total-duration:before 
+  {
+    content:"\68";
+    font-size:48px;
+  } 
+  .template-icon-booking-meta-duration:before 
+  {
+    content:"\61";
+    font-size:18px;
+    top:2px;
+    margin-right:4px;
+    position:relative;
+  }
+  .template-icon-booking-meta-price:before 
+  {
+    content:"\62";
+    font-size:18px;
+    top:2px;
+    margin-right:4px;
+    position:relative;
+  } 
+  
