@@ -5,11 +5,9 @@
  $(document).ready(function(){
 
 
- 	 $('.menu').addClass('animated bounceIn');
+ 	 $('.menup').addClass('animated bounceIn');
  	 $('.logomarca-brand').addClass('animated bounceInLeft');
  	/*====LEFT BAR TOGGLE====*/
-	$(function() {
-
 		$(".left-toggle").click(function() {
 			if($('.menu-flutuante').css("display")=="none"){
 				$('.menu-flutuante').css("display", "block");
@@ -23,9 +21,8 @@
 				$('.menu-flutuante').css("display", "none");
 			}
     	});
-	});
 	initMap();
-
+	exibeDataHora('hora');
  });
 
  /*===== MAPS ==== */
@@ -45,3 +42,36 @@ function initMap(){
  };
  	var map = new google.maps.Map(document.getElementById("map"), myOptions);
  }
+ function exibeDataHora(div){
+   var data = new Date();
+   horas = data.getHours();
+   minutos = data.getMinutes();
+   segundos = data.getSeconds();
+   //converte as horas, minutos e segundos para string
+   str_horas = new String(horas);
+   str_minutos = new String(minutos);
+   str_segundos = new String(segundos);
+   //se tiver menos que 2 digitos, acrescenta o 0
+   if (str_horas.length < 2)
+      str_horas = 0 + str_horas;
+   if (str_minutos.length < 2)
+      str_minutos = 0 + str_minutos;
+   if (str_segundos.length < 2)
+      str_segundos = 0 + str_segundos;
+
+   data = str_horas + ':' + str_minutos + ':' + str_segundos;
+   
+   document.getElementById(div).innerHTML = data;
+ 
+   setTimeout("exibeDataHora('hora')", 1000);
+
+}
+
+// tirar 80 de diferença
+var $doc = $('html, body');
+$("a").click(function() {
+    $doc.animate({
+        scrollTop: ($( $.attr(this, 'href') ).offset().top-80) 
+    }, 500);
+    return false;
+});
