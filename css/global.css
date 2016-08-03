@@ -174,7 +174,7 @@ ol{
 	position: absolute;
 	margin: 0px;
 	height: auto !important;
-	background-color: #eee;
+	background-color: #4F7083;
 	z-index: 50000;
 	display: none;
 }
@@ -184,27 +184,27 @@ ol{
 }
 .side-navigation li>ul {
 	margin:0px;
-	background:#eee;
+	background:#FFF;
 }
 .side-navigation li {
 	list-style:none;
 	position:relative;
 	margin-left: -40px;
 	margin-top: -1px;
-	border-bottom:rgba(255, 255, 255, .5) 1px solid;
+	/*border-bottom:rgba(255, 255, 255, .5) 1px solid;*/
 	box-shadow:inset 0 -1px 0 rgba(000, 000, 000, .2);
 }
 .side-navigation>li>a {
 	display:block;
 	line-height:40px;
 	text-decoration:none;
-	color:#222;
+	color:#FFF;
 	padding:0 20px;
 	text-align: center;
 }
 
 .side-navigation>li>a:hover {
-	background:#6f7683;
+	background:#6D92A7;
 	color:#fff;
 	text-shadow:0 1px 0 rgba(000, 000, 000, .4);
 }
