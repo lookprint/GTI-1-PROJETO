@@ -25,7 +25,7 @@ col-lg: maior ou igual a 1200px
 -->
 <body>
 	<nav class="navbar menu navbar-fixed-top">
-		<div class="container">
+		<div class="container" >
 			<div class="row">
 				<div class="col-sm-3 col-xs-8 logomarca-brand">	
 					<img src="img/logo.png" alt="Logo MaxFlex">
@@ -36,6 +36,7 @@ col-lg: maior ou igual a 1200px
 						<li><a href="#home">HOME</a></li>
 						<li><a href="#sobre">SOBRE</a></li>
 						<li><a href="#servicos">SERVIÇOS</a></li>
+						<li><a href="#planos">PLANOS</a></li>
 						<li><a href="#contato">CONTATO</a></li>
 					</ul>
 				</div>
@@ -55,20 +56,21 @@ col-lg: maior ou igual a 1200px
 			</div>
 		</div>
 	</nav>
-	<div class="linha-colorida"></div>
+	<div class="linha-colorida" id="home"></div>
 	<!-- MENU FLUTUANTE MOBILE -->
 	<div class="menu-flutuante">
 		<ul class="side-navigation">
 			<li><a href="#home">HOME</a></li>
 			<li><a href="#sobre">SOBRE</a></li>
 			<li><a href="#servicos">SERVIÇOS</a></li>
+			<li><a href="#planos">PLANOS</a></li>
 			<li><a href="#contato">CONTATO</a></li>
 		</ul>
 	</div>
 	<!-- MENU FLUTUANTE MOBILE FIM-->
-	<div id="map" class="maps-personalizado" ></div>
+	<div id="map" class="maps-personalizado"></div>
 	<div class="slidep">
-		<div class="container"  id="home">
+		<div class="container">
 			<div class="top-buffer"></div>
 			<div class="row">
 				<div class="col-sm-6 col-xs-12">
@@ -89,7 +91,7 @@ col-lg: maior ou igual a 1200px
 	
 	<!-- CONTEUDO (CORPO) -->
 	<div class="container corpo">
-		<section class="row sobre">
+		<section class="row sobre" id="sobre">
 			<div class="col-md-6 col-sm-12 col-xs-12 text-content">
 				<div class="title-box">
 					<h1>SOBRE NÓS</h1>
@@ -107,7 +109,7 @@ col-lg: maior ou igual a 1200px
 	<div class="hr default-color"><a href="#" class="btn btn-default" data-mce-href="#">Leia Mais</a></div>
 
 
-	<div class="container-fluid corpo servicos">
+	<div class="container-fluid corpo servicos" id="servicos">
 		<div class="container">
 			<div class="row">
 
@@ -187,7 +189,7 @@ col-lg: maior ou igual a 1200px
 		</div>
 	</div>	
 
-	<div class="container-fluid corpo planos">
+	<div class="container-fluid corpo planos" id="planos">
 		<div class="container">
 			<div class="row">
 
@@ -357,7 +359,7 @@ col-lg: maior ou igual a 1200px
 				</div>
 			</div>
 		</div>
-		<div class="container">
+		<div class="container"  id="contato">
 			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-8 col-sm-12">
@@ -366,7 +368,7 @@ col-lg: maior ou igual a 1200px
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12">
-						<div class="title-box">
+						<div class="title-box" >
 							<h1>CONTATOS</h1> 
 						</div>
 						<div class="contact-address">
