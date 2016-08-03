@@ -145,8 +145,8 @@ a:hover.left-toggle {
 
 .servicos {
 	/*background-color:#F2F2F2;*/
-	margin-top: -65px;
-	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 50px;
 }
 
 .title-line{
@@ -236,6 +236,7 @@ ol{
 	padding:0px 0px 0px 24px;
 	border-left:8px solid #fb4848;
 	margin-bottom:15px;
+	margin-top: 50px;
 }
 
 .sobre .title-box h1{
@@ -443,9 +444,9 @@ ol{
  .bg-caminhao {
 
  	background-attachment:fixed;
- 	margin-top: -23px !important;
- 	padding-top: 83px !important;
- 	padding-bottom: 73px !important;
+ 	margin-top: 30px !important;
+ 	padding-top: 93px !important;
+ 	padding-bottom: 83px !important;
  	background-image: url(../img/home3-bg.jpg) !important;
  	background-position: center !important;
  	background-repeat: no-repeat !important;
@@ -466,6 +467,7 @@ ol{
  	border-left:8px solid #fb4848;
  	margin-bottom:15px;
  	color: #0ba6dd;
+ 	margin-top: 90px;
  }
 
  .planos .title-box h4{
@@ -582,4 +584,8 @@ ol{
  	height:auto;
 
 
+ }
+
+ .contato {
+ 	margin-top: 50px;
  }
