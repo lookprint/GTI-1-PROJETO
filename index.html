@@ -24,7 +24,7 @@ com-md: maior ou igual a 998px *
 col-lg: maior ou igual a 1200px
 -->
 <body>
-	<nav class="navbar menu navbar-fixed-top">
+	<nav class="navbar navbar-fixed-top" id="menu">
 		<div class="container" >
 			<div class="row">
 				<div class="col-sm-3 col-xs-8 logomarca-brand">	
@@ -43,8 +43,8 @@ col-lg: maior ou igual a 1200px
 				<!-- FIM MENU -->
 				<!-- BOAS VINDAS -->
 				<div class="col-sm-3 col-xs-3 collapse navbar-collapse">
-					<div class="login text-right">
-						<div class="welcome">BEM-VINDO<BR><div id="hora">00:00</div></div>
+					<div class="text-right" id="login">
+						<div id="welcome">BEM-VINDO<BR><div id="hora">00:00</div></div>
 					</div>
 				</div>
 				<!-- FIM VINDAS -->
@@ -56,6 +56,8 @@ col-lg: maior ou igual a 1200px
 			</div>
 		</div>
 	</nav>
+
+
 	<div class="linha-colorida" id="home"></div>
 	<!-- MENU FLUTUANTE MOBILE -->
 	<div class="menu-flutuante">
@@ -106,13 +108,13 @@ col-lg: maior ou igual a 1200px
 			</div>
 		</section>
 	</div>
+
 	<div class="hr default-color"><a href="#" class="btn btn-default" data-mce-href="#">Leia Mais</a></div>
 
 
 	<div class="container-fluid corpo servicos" id="servicos">
 		<div class="container">
-			<div class="row">
-
+			<section class="row">
 				<div class="title-box">
 					<h1>POR QUE NOS ESCOLHER?</h1>
 				</div>
@@ -126,7 +128,7 @@ col-lg: maior ou igual a 1200px
 								<i class="icon-search-4"></i>
 							</div>
 							<h4>MONITORAMENTO 24 HORAS</h4>
-							<p>Equipe especializada e treinada para atendimento ágil, passandtranquilidade e segurança nas situações adversas.</p>
+							<p>Equipe especializada e treinada para atendimento ágil, passando tranquilidade e segurança nas situações adversas.</p>
 						</div>
 					</div>
 
@@ -158,7 +160,7 @@ col-lg: maior ou igual a 1200px
 								<i class="icon-lock"></i>
 							</div>
 							<h4>BLOQUEIO VIA SATÉLITE</h4>
-							<p>Sua solicitação é atendida prontamente e o bloqueio quando solicitado é feito de imediato.<br><br></p>
+							<p>Sua solicitação é atendida prontamente e o bloqueio quando solicitado, é feito de imediato.<br><br></p>
 						</div>
 					</div>
 
@@ -166,7 +168,7 @@ col-lg: maior ou igual a 1200px
 				</div>
 
 			</div>
-		</div>
+		</section>
 	</div>
 	<div class="bg-caminhao">
 		<div class="container">
@@ -191,7 +193,7 @@ col-lg: maior ou igual a 1200px
 
 	<div class="container-fluid corpo planos" id="planos">
 		<div class="container">
-			<div class="row">
+			<section class="row">
 
 				<div class="title-box">
 					<h1>PLANOS</h1>
@@ -357,9 +359,9 @@ col-lg: maior ou igual a 1200px
 						</li>
 					</ul>
 				</div>
-			</div>
+			</section>
 		</div>
-		<div class="container contato"  id="contato">
+		<section class="container contato"  id="contato">
 			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-8 col-sm-12">
@@ -382,7 +384,7 @@ col-lg: maior ou igual a 1200px
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	</div>
 
 </div>

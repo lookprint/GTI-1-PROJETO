@@ -462,3 +462,27 @@ $("a").click(function() {
   };
   var map = new google.maps.Map(document.getElementById("map2"), myOptions);
 }
+
+/*SCROOL
+HOME - 295
+SERVIÇO - 643
+PLANOS - 1537
+CONTATOS - 2321
+
+$(window).scroll(function() {
+    var windscroll = $(window).scrollTop();
+
+
+
+        $('section').each(function(i) {
+         
+
+           if($(this).position().top<=windscroll+80){
+                $('nav a.active').removeClass('active');
+                $('nav a').eq(1).addClass('active');
+           } 
+        });
+
+ 
+
+}).scroll();*/
