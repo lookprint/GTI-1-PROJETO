@@ -21,14 +21,14 @@
   }
 }
 @media (max-width:1199px) {
-  .login{
+  #login{
     margin-left: 0px;
   }
   
 }
 
 @media (max-width:992px) {
-  .login{
+  #login{
     display:none;
   }
   
