@@ -10,6 +10,19 @@
 });
 
  $(document).ready(function(){
+  $(".left-toggle").click(function() {
+     if($('.menu-flutuante').css("display")=="none"){
+      $('.menu-flutuante').css("display", "block");
+    } else {
+      $('.menu-flutuante').css("display", "none");
+    }
+  });
+
+   $('body').click(function() {
+    if($('.menu-flutuante').css("display")=="block"){
+      $('.menu-flutuante').css("display", "none");
+    }
+  });
 initMap();
 initMap2();
 

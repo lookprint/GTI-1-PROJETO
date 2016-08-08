@@ -7,17 +7,41 @@
 }
 @media (max-width:1199px) {
 
-  
+
 }
 
-@media (max-width:992px) {
- 
-  
-}
 
 @media (max-width:820px) {
  .ipad-with-video{
-  visibility: collapse;
- }
-  
+  display: none;
+}
+
+}
+
+@media (max-width: 992px) {
+  .menu .navbar-nav > li.link-servicos {
+    margin-left: 225px;
+  }
+  .menu .dropdown{
+    display: none;
+  }
+
+  .menu .navbar-brand {
+    margin: 0 0 0 -120px !important;
+  }
+  .menu .navbar-nav > li {
+    margin-right: 0px !important;
+  }
+  .maps-personalizado{
+    height: 200px !important;
+  }
+  .title-contatos{
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu .navbar-nav > li {
+    margin-right: 20px;
+  }
 }
