@@ -72,13 +72,12 @@ function exibeDataHora(div){
 
 // tirar 80 de diferença
 var $doc = $('html, body');
-$("a").click(function() {
+$("a").click(function(e) {
   $doc.animate({
     scrollTop: ($( $.attr(this, 'href') ).offset().top-80) 
-  }, 500);
+  }, 1500, "easeInOutExpo");
   return false;
 });
-
 
 
  function initMap2(){
